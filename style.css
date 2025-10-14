@@ -22,13 +22,24 @@
     .job{opacity:0.95;margin-top:6px}
     .bio{margin-top:10px;font-size:0.95rem;opacity:0.95}
 
-/* موبایل: هدر کشیده و گوشه‌ها مربعی */
+
 @media (max-width: 768px) {
   .hero {
-    width: 100vw !important;      /* تمام عرض صفحه */
-    border-radius: 0 !important;  /* بدون خمیدگی */
-    margin: 0 !important;         /* حذف فاصله از کناره‌ها */
-    padding: 2rem 1rem !important;/* میتونی تنظیم کنی */
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 100vw !important;
+    border-radius: 0 !important;  
+    margin: 0 !important;
+    padding: 2rem 1rem !important;
+  }
+  .container{
+    padding: 0 0;
+    margin: 0 0;
+  }
+  .card{
+    margin-right: .3rem;
+    margin-left: .3rem;
   }
 }
 
