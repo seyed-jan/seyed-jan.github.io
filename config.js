@@ -1,7 +1,7 @@
 const config = {
     name: ' سید پارسا حسینی',
     bio: 'برنامه نویس جنگو',
-    instagram: 'https://instagram.com/seyed-parsa-jan',
+    instagram: 'https://instagram.com/seyed_parsa_jan',
     telegram: 'https://t.me/OseyedO',
     github: 'https://github.com/seyed-jan',
     email: '',
