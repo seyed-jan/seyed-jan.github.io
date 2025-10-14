@@ -22,6 +22,16 @@
     .job{opacity:0.95;margin-top:6px}
     .bio{margin-top:10px;font-size:0.95rem;opacity:0.95}
 
+/* موبایل: هدر کشیده و گوشه‌ها مربعی */
+@media (max-width: 768px) {
+  .hero {
+    width: 100vw !important;      /* تمام عرض صفحه */
+    border-radius: 0 !important;  /* بدون خمیدگی */
+    margin: 0 !important;         /* حذف فاصله از کناره‌ها */
+    padding: 2rem 1rem !important;/* میتونی تنظیم کنی */
+  }
+}
+
     /* Social */
     .socials{display:flex;gap:10px;margin-top:12px}
     .socials a{background:rgba(255,255,255,0.14);padding:8px;border-radius:10px;color:white;display:inline-flex;align-items:center;gap:8px;font-weight:600}
@@ -81,27 +91,3 @@
     /* small helpers */
     .muted{color:var(--muted)}
     .btn{display:inline-block;padding:8px 12px;border-radius:10px;background:var(--main-green);color:white;font-weight:600}
-
-  .hero {
-    flex-direction: column;
-    border-radius: 0; /* مربعی شدن */
-    width: 100vw; /* تمام عرض موبایل */
-    margin: 0; /* حذف فاصله از کناره‌ها */
-    border: none;
-    padding: 2rem 1rem;
-  }
-
-  .hero img {
-    width: 120px;
-    height: 120px;
-  }
-
-  .hero-info {
-    text-align: center;
-  }
-
-  .socials a {
-    display: inline-block;
-    margin: 0 0.25rem;
-  }
-}
